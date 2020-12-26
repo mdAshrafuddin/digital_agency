@@ -1,0 +1,92 @@
+#about_area{
+    .img_area {
+        position: relative;
+        img {
+            width: 440px;
+            height: 642px;
+            border-radius: 6px;
+        }
+        &::before{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            background: linear-gradient(180deg, rgba($red_color, 0.5), rgba($black-color, 0.6));
+            width: 96.5%;
+            height: 99%;
+            border-radius: 6px;
+        }
+    }
+    .about_boxes {
+        margin: -42px 0px;
+    .about_box {
+        h2 {
+            font-size: 70px;
+            font-weight: 900;
+        }
+        p {
+            color: $black-color-primary;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 500;
+        }
+    }
+    .tabs-area {
+
+    }
+
+    .tabs-area {
+        #tabs-swipe-demo{
+            &.tabs {
+                .tab {
+                    a{
+                        color: $black-color;
+                        text-overflow: clip;
+                        font-weight: 600;
+                        font-size: 15px;
+                        &.active {
+                           color: $red_color;
+                        }
+                    }
+                }
+                .indicator {
+                    background-color: $red_color;
+                }
+            }
+        }
+        #test-swipe-1 {
+            p {
+                font-size: 16px;
+                line-height: 30px;
+                color: $black-color-primary;
+            }
+            ul {
+                &.list_style {
+                    h3 {
+                        font-size: 20px;
+                        font-weight: 700;   
+                    }
+                    li {
+                        padding: 6px 0px;
+                        font-size: 16px;
+                        color: $black-color-primary;
+                        svg {
+                            color: $red_color;
+                        }
+                    }
+                }
+            }
+        }
+        #test-swipe-2{
+            p{
+                color: $black-color-primary;
+            }
+        }
+        #test-swipe-3 {
+            p{
+                color: $black-color-primary;
+            }
+        }
+    }
+}
+}

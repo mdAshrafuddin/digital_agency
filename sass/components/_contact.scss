@@ -1,0 +1,41 @@
+#call_to_action_wrapper {    
+    // position: relative;
+    // &::before{
+    //     position: absolute;
+    //     content: '';
+    //     width: 100%;
+    //     height: 100%;
+    //     background-image: url('../img/contact/1.png');
+    //     top: 0;
+    //     left: 0;
+    // }
+    background: -webkit-linear-gradient(305deg,#f81f01,#ee076e);
+    background: linear-gradient(145deg,#f81f01,#ee076e);
+    padding: 160px 0px;
+    text-align: center;
+    .call_action_text {
+        // position: relative;
+        // z-index: 2
+        span {
+            color: $white-color;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: -20px;
+            display: block;
+        }
+        h2 {
+            color: $white-color;
+            font-size: 80px;
+            font-weight: bolder;
+        }
+        a{
+            color: $white-color;
+        }
+        .slide-btn {
+
+            a{
+
+            }
+        }
+    }
+}

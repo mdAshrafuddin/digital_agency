@@ -1,0 +1,38 @@
+#footer_area {
+    background-color: #000;
+    color: $black-color-shade;
+    .footer_box {
+        display: flex;
+        align-items: center;
+        .logo {
+            h1{
+                font-size: 24px;
+            font-weight: bolder;
+            }
+        }
+        .icon {
+            text-align: center;
+            svg {
+                border: 1px solid $black-color-primary;
+                width: 45px;
+                height: 45px;
+                padding: 6px;
+                border-radius: 50%;
+                transition: all .4s ease-in-out;
+                margin: 0px 3px;
+                &:hover {
+                    background: $red_color;
+                    cursor: pointer;
+                }
+            }
+            
+        }
+        .text {
+            text-align: center;
+            p {
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+}

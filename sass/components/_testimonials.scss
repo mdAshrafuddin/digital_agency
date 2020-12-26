@@ -1,0 +1,67 @@
+
+//   .tabs-content IMG {
+//     margin-right: 10px;
+//   }
+//   /* Hide all but first content div */
+  
+//   .tabs-content div:not(:first-child) {
+//     display: none;
+//   }
+
+  #testimonial_area {
+      .testimonial_box {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-top: 5vh;
+        padding-bottom: 20vh;
+      .tabs-nav {
+          text-align: center;
+          width: 70%;
+          margin: 0 auto;
+          a { 
+            display: block;
+            padding: 10px 15px;
+            font-weight: bold;
+            color: #fff;
+          }
+          ul {
+              
+            margin: 0;
+            padding: 0;
+              li {
+                border: none;
+                background: transparent;
+                display: inline-block;
+                color: #fefefe;
+                margin-right: 5px;
+                a {
+                    img{
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+                &.active {
+                    background: #FFF;
+                    color: #000;
+                  }
+                &.active a {
+                    color: inherit;
+                  }
+              }
+          }
+      }
+      .tabs-content {
+        border: none;;
+        padding: 10px;
+        background: #FFF;
+        margin-top: -1px;
+        overflow: hidden;
+        div:not(:first-child) {
+            display: none;
+          }
+          IMG {
+            margin-right: 10px;
+          }
+      }
+  }
+}

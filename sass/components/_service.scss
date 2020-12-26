@@ -1,0 +1,29 @@
+
+.services_box {
+    text-align: center;
+    padding: 60px 30px;
+    transition: .4s;
+    .icon {
+        color: $red_color;
+        font-size: 42px;
+        margin-bottom: -20px;
+    }
+    .services_content {
+        h1 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        p {
+            color: $black-color-primary;
+            font-size: 16px;
+        }
+    }  
+    &:hover{
+        background: $red_color;
+        color: $white-color;
+    }
+}
+
+.services_box:hover .icon,.services_box:hover p{
+    color: $white-color;
+}

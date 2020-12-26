@@ -1,0 +1,38 @@
+#home_area {
+    position: relative;
+    .home_img_cn {
+        position: relative;
+        img {
+            width: 100%;
+        }
+        .home_content_area {
+            position: absolute;
+            top: 0;
+            min-width: 100%;
+            height: auto;
+            display: flex;
+            min-height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            overflow: hidden;
+            h1 {
+                color: #fff;
+                font-size: 100px;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-bottom: 0;
+            }
+            p {
+                color: #fff;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 40px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
